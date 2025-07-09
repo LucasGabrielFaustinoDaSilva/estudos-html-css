@@ -1,0 +1,4 @@
+é importante verificar quais tags estão disponiveis e quais estão em desuso, algumas ficam em vermelho, outras nao, e ambas ate funcionam.
+porem trazem problemas no futuro.
+
+site para verificar https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="icone de emoji.ico" type="image/x-icon">
+  <title>Midias em HTML5</title>
+</head>
+<body>
+  <h1>Imagem dinâmica</h1>
+  <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente ou diminui o tamanho do seu navegador</p>
+  <!--É importante entender sobre responsividade, abaixo são tres imagens, que dependendo do tamanho da tela elas mudam, usando a tag picture para dizer que ali esta uma imagem e a tag source para dizer seu tamanho, a ordem deve ser obedecida se não, não funciona-->
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+
+    <source media="(max-width: 1050px )" srcset="imagens/media.png" type="image/png">
+
+    <img src="imagens/grande.png" alt="imagem flexivel">
+  </picture>
+  
+  <h1>Reproduzindo áudio</h1>
+  <p>Vamos aprender a reproduzir áudio em html5</p>
+  <!--Jeito simples que as vezes pode não funcionar, tire o comentario para ver se está funcionando-->
+
+  <!--<audio src="midia/Minha gravação 59.wav" controls autoplay></audio>-->
+
+  <!--Nesse caso é um jeito melhorado de carregar audio, opte sempre por mp3 ou ogg wav é muito pesado e grande-->
+  <audio preload="metadata" autoplay controls>
+    <source src="midia/Minha-gravação-59.mp3" type="audio/mpeg">
+    <source src="midia/Minha-gravação-59.ogg" type="ogg">
+    <source src="midia/Minha-gravação-59.wav" type="wav">
+  </audio>
+  <p>Infelizmente seu navegador não reproduz audio <a href="midia/Minha-gravação-59.mp3">clique aqui</a> para baixar o audio</p>
+</body>
+</html>

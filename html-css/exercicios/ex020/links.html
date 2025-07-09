@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalizando links</title>
+  <style>
+    /*
+        # = id
+        . = class
+        : = pseudo-class
+        :: =pseudo-element
+        > = children
+        */
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    a {
+      color: red;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:visited {
+      color: darkred
+    }
+    a:hover {
+      color: black;
+      text-decoration: underline;
+    }
+    a:active {
+      color:yellow;
+    }
+    .especial {
+      background-color: rgba(139, 0, 0, 0.288);
+      
+    }
+    .especial:before {
+      content: '☯';
+      text-decoration: none;
+      font-weight: normal;
+      color:darkgray
+    }
+    
+    .especial:after {
+      content: '☯';
+      text-decoration: none;
+      font-weight: normal;
+      color:darkgray
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Personalizando links</h1>
+  <ul>
+    <li><a target="_blank" href="https://github.com/LucasGabrielFaustinoDaSilva">Repositório GitHub</a></li>
+    <li><a target="_blank" href="https://www.linkedin.com/in/lucas-gabriel-faustino-da-silva-1a1737235/">Linkedin</a></li>
+    <li><a target="_blank" href="https://www.cursoemvideo.com/" class="especial">Site Cursoemvideo</a></li>
+    <li><a target="_blank" href="pseudoclasses.html">Teste</a></li>
+  </ul>
+</body>
+
+</html>

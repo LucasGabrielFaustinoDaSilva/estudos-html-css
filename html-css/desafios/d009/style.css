@@ -1,0 +1,23 @@
+ body {
+        background-color: black;
+      }
+      h1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: auto;
+      }
+      #voltar{
+        display: flex;
+        padding-left: 250px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+        font-size: 2em;
+        text-decoration: none;
+      }
+      
+      #back{
+        padding-top: 100px;
+        padding-left: 320px;
+      }

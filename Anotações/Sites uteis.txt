@@ -1,0 +1,21 @@
+https://www.favicon.cc/ desenhar icone
+https://www.iconarchive.com/ pegar icone
+https://favicon.io/ criar icone a apartir de algo
+
+https://www.iana.org/assignments/media-types/media-types.xhtml site para ver as nomenclaturas
+
+https://color.adobe.com/ para paletas de cores com imagens
+https://paletton.com/ para paletas de cores exemplos com sites
+https://coolors.co/ paletra de cores nivel iniciante
+
+https://fonts.google.com  site para fontes externas (use o import)
+https://www.dafont.com/pt/ baixar fontes (use   @font-face {
+      font-family: 'Love' ;
+      src: url('fonts/love\ larry\ ttf.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+https://chromewebstore.google.com detectar fontes externas
+
+https://www.whatfontis.com/?s3 detectar fontes de imagens
+https://www.myfonts.com/pages/whatthefont alternativo
+https://www.fontsquirrel.com/ nao pega mas alternativo

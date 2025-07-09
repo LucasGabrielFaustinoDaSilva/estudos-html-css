@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+    <style>
+      * {
+        width: auto;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #292929;
+        margin: 0;
+      }
+      header {
+        background-color: #ffff;
+        padding: 10px;
+        margin: 10px;
+      }
+      header > h1 {
+        text-align: center;
+      }
+      header > h1:hover {
+        font-size: 2, 5em;
+        color: #bdbdbd;
+      }
+      nav {
+        background-color: #4e4e4e;
+        padding: 3px;
+      }
+      nav:hover {
+        box-shadow: 2px 2px 4px 1px #0000005e;
+      }
+      nav > a {
+        text-decoration: none;
+        color: #ffff;
+        font-weight: bold;
+        margin-right: 30px;
+      }
+      nav > a:hover {
+        text-decoration: underline;
+      }
+      main {
+        background-color: #ffff;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 0;
+        box-shadow: 4px 4px 9px 0 #000000a8;
+      }
+      article {
+        background-color: #c5c4c4;
+        padding: 5px;
+      }
+      article > aside {
+        background-color: #636262;
+      }
+      article > p {
+        text-align: justify;
+        font-family: cursive;
+      }
+      footer {
+        background-color: #000000;
+        color: #ffff;
+        text-align: center;
+        padding: 4px;
+        margin: 0;
+      }
+      footer > p {
+        margin: 0;
+      }
+      #bola {
+        margin-left: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: red;
+        position: center;
+        
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+        <p>Esportes Tecnologia</p>
+      </section>
+      <section id="noticias">
+        <article>
+          <h2>Noticia sobre programação</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            libero in alias error blanditiis quis nihil adipisci harum optio
+            corrupti recusandae, nobis, deleniti voluptatum quas maxime ea,
+            expedita tempore iste?
+          </p>
+          <aside>
+            <p>Artigo escrito por Lucas Gabriel</p>
+          </aside>
+        </article>
+        <article></article>
+      </section>
+    </main>
+    <footer>
+      <p>Desenvolvido por Lucas Gabriel</p>
+    </footer>
+    <div id="bola"></div>
+  </body>
+</html>

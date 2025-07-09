@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usando links externos</title>
+  <style>
+    h1{
+      text-align: center; 
+      color: blue;
+      font-family: 'Times New Roman', Times, serif;
+      
+    }
+    
+  </style>
+</head>
+<body>
+  <h1>Usando links</h1>
+  <hr>
+  <h2>Links externos</h2>
+  <!--Para que ao clicar no link abra uma nova guia é necessario a utilização do target e o do rel-->
+  <p>Você pode acessar meu <a href="https://github.com/LucasGabrielFaustinoDaSilva" target="_blank" rel="external">repositorio publico</a> no github</p>
+
+  <p>Você támbem pode acessar <a href="https://www.youtube.com/@OLucas01" target="_blank" rel="external">meu canal</a> no youtube
+  </p>
+
+  <h2>Links internos</h2>
+  <p>Essa é a primeira pagina do site se você quiser acessar a segunda pagina <a href="pag002.html" rel="next">segunda pagina</a></p>
+<!--Não é necessario colocar target paara abrir na propria aba, mas por recomendação utiliza se o target =_self-->
+  <p>Você pode acessar a terceira pagina clicando <a href="Noticias/pag003.html" target="_self" rel="next">aqui</a></p>
+
+  <h2>Links para download</h2>
+  <ul>
+    <li><a href="Livro/25 exercícios de Movimento Uniformemente Variado1 (2).pdf" download="25 exercícios de Movimento Uniformemente Variado1 (2).pdf" type="application/pdf">Exercicios em PDF</a></li>
+    
+    <li><a href="Livro/meu casamento .zip" download="meu casamento .zip" type="application/zip">Casamento</a></li>
+  </ul>
+  </body>
+</html>
