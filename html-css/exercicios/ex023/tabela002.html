@@ -12,6 +12,7 @@
       table {
         width: 400px;
         border-collapse: collapse;
+        position: relative;
       }
 
       td,
@@ -24,6 +25,11 @@
         text-align: right;
       }
 
+      thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: #252525;
+      }
       thead,
       tfoot {
         background-color: #252525;
@@ -35,6 +41,15 @@
         font-weight: bold;
         padding: 10px;
         background-color: #8b8b8b;
+      }
+      /*
+      Como deixar zebrado:
+      odd ou 2n-1 = impar
+      even ou 2n = par
+      xn = x= quantidade de linhas para pular
+      */
+      tbody tr:nth-child(even) {
+        background-color: #8a8a8a;
       }
       
     </style>
@@ -251,5 +266,15 @@
         </tr>
       </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatibus rerum ratione inventore deleniti? Natus, eligendi labore? Molestiae, neque. Repellat perferendis repellendus explicabo aliquam pariatur nemo eius quas! Quo, deserunt.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatibus rerum ratione inventore deleniti? Natus, eligendi labore? Molestiae, neque. Repellat perferendis repellendus explicabo aliquam pariatur nemo eius quas! Quo, deserunt.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatibus rerum ratione inventore deleniti? Natus, eligendi labore? Molestiae, neque. Repellat perferendis repellendus explicabo aliquam pariatur nemo eius quas! Quo, deserunt.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatibus rerum ratione inventore deleniti? Natus, eligendi labore? Molestiae, neque. Repellat perferendis repellendus explicabo aliquam pariatur nemo eius quas! Quo, deserunt.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatibus rerum ratione inventore deleniti? Natus, eligendi labore? Molestiae, neque. Repellat perferendis repellendus explicabo aliquam pariatur nemo eius quas! Quo, deserunt.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatibus rerum ratione inventore deleniti? Natus, eligendi labore? Molestiae, neque. Repellat perferendis repellendus explicabo aliquam pariatur nemo eius quas! Quo, deserunt.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatibus rerum ratione inventore deleniti? Natus, eligendi labore? Molestiae, neque. Repellat perferendis repellendus explicabo aliquam pariatur nemo eius quas! Quo, deserunt.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatibus rerum ratione inventore deleniti? Natus, eligendi labore? Molestiae, neque. Repellat perferendis repellendus explicabo aliquam pariatur nemo eius quas! Quo, deserunt.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatibus rerum ratione inventore deleniti? Natus, eligendi labore? Molestiae, neque. Repellat perferendis repellendus explicabo aliquam pariatur nemo eius quas! Quo, deserunt.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatibus rerum ratione inventore deleniti? Natus, eligendi labore? Molestiae, neque. Repellat perferendis repellendus explicabo aliquam pariatur nemo eius quas! Quo, deserunt.</p>
   </body>
 </html>
