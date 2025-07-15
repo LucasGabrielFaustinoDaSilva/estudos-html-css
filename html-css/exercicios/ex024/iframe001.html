@@ -4,23 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Estudos de iframe</title>
+    <style>
+      iframe {
+        width: 400px;
+        height: 400px;
+        
+      }
+    </style>
   </head>
   <body>
     <h1>Testando o uso de iframe</h1>
+
+    <!--
+    tamanho padrao do iframe: 300x150px
+  
+  -->
     <p>
       Acessando o site do
       <iframe
         src="https://www.cursoemvideo.com/#google_vignette"
-        frameborder="0"
-      >
+        frameborder="0" scolling="no"
+      > <!--scolling tem tres opções:auto, yes e no para rolagem-->
+        <a href="https://www.cursoemvideo.com/#google_vignette" target="_blank"
+          >Curso em video</a
+        >
       </iframe>
       para aprender a programar
     </p>
 
     <p>
-      O site do
-      <iframe src="https://www.google.com/?hl=pt-BR" frameborder="0"></iframe>
-      para pesquisa
+      O repositorio do gustavo guanabara
+      <iframe src="https://gustavoguanabara.github.io" frameborder="0">
+        no
+        <a href="https://gustavoguanabara.github.io" target="_blank">github</a>
+      </iframe>
+      também é bem legal
     </p>
   </body>
 </html>
