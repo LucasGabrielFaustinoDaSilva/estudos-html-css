@@ -2,4 +2,76 @@
 
 /*Todas as demais midias*/
 
-@media
+/* Typical Device Breakpoints
+Pequenas telas: até 600px
+Celular: até 768px
+Tablet: até 992px
+Desktop: até 1200px
+grande telas: acima de 1200px
+*/
+/*impressão*/
+@media print {
+ * {
+   font-family: 'Courier New', Courier, monospace;
+   }
+ body {
+  background-image: url(../imagens/back-tablet.jpg);/*desnecessário*/
+
+}
+ main {
+  border: 2px solid black;
+  width: 90vh;
+ }
+ main h1 {
+  text-shadow: none;
+   color: black;
+ }
+ main:after {
+  content: "Essa impressão foi feita atraves dos estudos do fdevs";
+ }
+img#phone{display:none;}
+img#tablet{display:none;} 
+img#print{display:block;}
+img#pc {display:none;}
+img#tv {display:none;}
+}
+/* Tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+  body {
+    background: #000000 url(../imagens/back-tablet.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  img#phone{display:none;}
+  img#tablet{display:block;} 
+  img#print{display:none;}
+  img#pc {display:none;}
+  img#tv {display:none;}
+   
+}
+/* Desktop*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+ body {
+    background: #000000 url(../imagens/back-pc.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  img#phone{display:none;}
+  img#tablet{display:none;} 
+  img#print{display:none;}
+  img#pc {display:block;}
+  img#tv {display:none;}
+}
+/* Grande telas*/
+@media screen and (min-width: 1200px){
+  body {
+      background: #000000 url(../imagens/back-tv.jpg) no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    img#phone{display:none;}
+    img#tablet{display:none;} 
+    img#print{display:none;}
+    img#pc {display:none;}
+    img#tv {display:block;}
+}
