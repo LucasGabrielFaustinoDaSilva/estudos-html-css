@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Media Query</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos/style.css" />
   </head>
   <body>
-    <header>
+    <header>]
       <h1>Meu Site</h1>
-      <menu>
+      <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+      <menu id="itens">
         <ul>
           <li><a href="#">Opção</a></li>
           <li><a href="#">Opção</a></li>
@@ -22,10 +27,58 @@
     <main>
       <article>
         <h2>Testando media queries</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur minus dolorum facere, quidem veniam nobis in saepe minima sed, aut ratione non eveniet. Sint odit reprehenderit asperiores quod error odio.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur minus dolorum facere, quidem veniam nobis in saepe minima sed, aut ratione non eveniet. Sint odit reprehenderit asperiores quod error odio.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur minus dolorum facere, quidem veniam nobis in saepe minima sed, aut ratione non eveniet. Sint odit reprehenderit asperiores quod error odio.</p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+          minus dolorum facere, quidem veniam nobis in saepe minima sed, aut
+          ratione non eveniet. Sint odit reprehenderit asperiores quod error
+          odio.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+          minus dolorum facere, quidem veniam nobis in saepe minima sed, aut
+          ratione non eveniet. Sint odit reprehenderit asperiores quod error
+          odio.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+          minus dolorum facere, quidem veniam nobis in saepe minima sed, aut
+          ratione non eveniet. Sint odit reprehenderit asperiores quod error
+          odio.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+          minus dolorum facere, quidem veniam nobis in saepe minima sed, aut
+          ratione non eveniet. Sint odit reprehenderit asperiores quod error
+          odio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolore doloremque aperiam aspernatur autem dolorum architecto, nemo maxime quo eaque iure animi ullam tenetur repellendus, possimus reiciendis placeat laboriosam exercitationem?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+          minus dolorum facere, quidem veniam nobis in saepe minima sed, aut
+          ratione non eveniet. Sint odit reprehenderit asperiores quod error
+          odio.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+          minus dolorum facere, quidem veniam nobis in saepe minima sed, aut
+          ratione non eveniet. Sint odit reprehenderit asperiores quod error
+          odio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolore doloremque aperiam aspernatur autem dolorum architecto, nemo maxime quo eaque iure animi ullam tenetur repellendus, possimus reiciendis placeat laboriosam exercitationem?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+          minus dolorum facere, quidem veniam nobis in saepe minima sed, aut
+          ratione non eveniet. Sint odit reprehenderit asperiores quod error
+          odio.
+        </p>
       </article>
     </main>
+    <script>
+      function clickMenu(){
+        if(itens.style.display == 'block'){
+          itens.style.display = 'none'
+        } else {
+          itens.style.display = "block"
+        }
+      }
+    </script>
   </body>
 </html>
