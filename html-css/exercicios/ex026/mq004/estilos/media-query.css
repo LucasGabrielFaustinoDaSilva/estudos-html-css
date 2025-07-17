@@ -26,6 +26,7 @@ grande telas: acima de 1200px
   text-shadow: none;
    color: black;
  }
+ 
  main:after {
   content: "Essa impressão foi feita atraves dos estudos do fdevs";
  }
