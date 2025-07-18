@@ -1,5 +1,5 @@
 @charset "UTF-8";
-*{
+* {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
@@ -9,26 +9,25 @@
   --cor-header: #2d3342;
   --cor-main: #ffff;
   --menu-burguer: #2b2b2b;
-  --menu-burguer-hover: #f1f1f1 ;
+  --menu-burguer-hover: #f1f1f1;
   --cor-menu: #2c3f5c;
   --cor-borda-menu: #d3d3d3;
   --cor-menu-hover: #19458b;
   --cor-h1: #ffff;
 }
-body, html {
-  background-color: var(--cor-body)
+body,
+html {
+  background-color: var(--cor-body);
 }
 
 header {
   background-color: var(--cor-header);
-
 }
 
 header > h1 {
   padding: 10px;
   text-align: center;
-  color:var(--cor-h1);
-  
+  color: var(--cor-h1);
 }
 i#burguer {
   background-color: var(--menu-burguer);
@@ -41,8 +40,8 @@ i#burguer {
 }
 
 i#burguer:hover {
- background-color: var(--menu-burguer-hover);
- color: black;
+  background-color: var(--menu-burguer-hover);
+  color: black;
 }
 menu {
   display: none;
@@ -57,14 +56,13 @@ menu a {
   padding: 10px;
   text-decoration: none;
   text-align: center;
-  background-color: var(--cor-menu) ;
+  background-color: var(--cor-menu);
   color: white;
   border-top: 2px solid var(--cor-borda-menu);
-  
 }
 
 menu a:hover {
-  background-color: var(--cor-menu-hover) ;
+  background-color: var(--cor-menu-hover);
 }
 
 main {
@@ -83,5 +81,5 @@ article > h2 {
 article > p {
   text-align: justify;
   margin-bottom: 20px;
-  text-indent: 20px ;
+  text-indent: 20px;
 }
